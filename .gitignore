@@ -1,0 +1,109 @@
+# OS / system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.tm_properties
+
+# Build / cache / temp
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+target/
+.cache/
+.nox/
+.pytest_cache/
+.hypothesis/
+
+# Virtual environments and env files
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.env.*
+*.env
+python-version
+
+# Logs, databases, coverage
+*.log
+*.sqlite3
+*.sqlite
+*.db
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.manifest
+*.spec
+
+# Jupyter / IPython
+.ipynb_checkpoints
+.profile_default/
+ipython_config.py
+
+# Docs and build artifacts
+docs/_build/
+_site/
+
+# Local config / secrets (do NOT commit)
+config.json
+secrets.json
+local_settings.py
+
+# Node / web projects (if applicable)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnpm-debug.log*
+dist/
+build/
+out/
+.next/
+.vercel/
+
+# CI / deployment
+.dockerignore
+.dockerignore.secret
+.dockerignore.local
+Dockerfile
+.dockerignore
+.env.local
+.env.development
+.env.production
+
+# Misc
+*.bak
+*.tmp
+*.orig
+*~
