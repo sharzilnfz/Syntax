@@ -1,5 +1,6 @@
 
 import asyncio
+import os
 from typing import Any, AsyncGenerator
 
 from openai import APIConnectionError, APIError, AsyncOpenAI, RateLimitError
@@ -14,7 +15,7 @@ class   LLMClient:
   def get_client(self) -> AsyncOpenAI:
     if self._client is None:
       self._client = AsyncOpenAI(
-        api_key='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',
+        api_key=os.getenv('OPENROUTER_API_KEY'),
         base_url="https://openrouter.ai/api/v1",
       )
     return self._client

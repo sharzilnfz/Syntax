@@ -1,4 +1,8 @@
 import asyncio
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from client.llm_client import LLMClient
 
