@@ -1,0 +1,6 @@
+@dataclass
+# class TaskResult:
+#   sucess: bool
+#   error: str | None = None
+#   message: str
+#   metadata: dict[str, Any] = field(default_factory=dict)
